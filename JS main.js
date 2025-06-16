@@ -4,4 +4,15 @@ numeroSenha.textContent = tamanhoSenha;
 
 const botoes = document.querySelectorAll('parametro-senha__botao');
 
-console.log(botoes);
+botoes[0].onclick = diminuiTamanho;
+botoes[1].onclick = aumentaTamanho;
+function diminuiTamanho(){
+
+   if (tamanhoSenha = tamanhoSenha > 1)
+    tamanhaSenha = tamanhaSenha -1;
+{
+numeroSenha.textContent = tamanhaSenha;}
+
+
+    numeroSenha.textContent = tamanhoSenha;
+}
