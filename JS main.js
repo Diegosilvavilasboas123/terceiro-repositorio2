@@ -32,7 +32,7 @@ let numeroAletorio = Math.random()*letrasMaiusculas.length;
     numeroAleatorio = Math.floor(numeroAleatorio);
     senha = senha + letraMaiusculas[numeroAleatorio];
 
-    campoSenha.value = senha;
+    campoSenha.value = letrasMaiusculas;
 
 
 }
