@@ -16,3 +16,20 @@ numeroSenha.textContent = tamanhaSenha;}
 
     numeroSenha.textContent = tamanhoSenha;
 }
+const campoSenha = document.querySelector('#campo-senha');
+const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+campoSenha.value = letrasMaiusculas;
+
+function geraSenha() {
+
+    let senhas='';
+
+for(let i=0; i<tamanhoSenha; i++)
+    
+let numeroAletorio = Math.random()*letrasMaiusculas.length;
+    numeroAleatorio = Math.floor(numeroAleatorio);
+    senha = senha + letraMaiusculas[numeroAleatorio];
+
+
+}
