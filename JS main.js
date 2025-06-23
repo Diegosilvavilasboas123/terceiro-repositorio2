@@ -18,6 +18,7 @@ numeroSenha.textContent = tamanhaSenha;}
 }
 const campoSenha = document.querySelector('#campo-senha');
 const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+geraSenha();
 
 campoSenha.value = letrasMaiusculas;
 
@@ -30,6 +31,8 @@ for(let i=0; i<tamanhoSenha; i++)
 let numeroAletorio = Math.random()*letrasMaiusculas.length;
     numeroAleatorio = Math.floor(numeroAleatorio);
     senha = senha + letraMaiusculas[numeroAleatorio];
+
+    campoSenha.value = senha;
 
 
 }
